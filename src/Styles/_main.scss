@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+// variables
+/* Colors */
+$main-color: #1c1c1c;
+$primary-color: #2b2b2b;
+$secondary-color: #0096d9;
+$icons-color: #bfbfbf;
+$danger-color: #a30245;
+$safe-color: #008e4a;
+$main-text-color: #fff;
+$primary-text-color: rgba(255, 255, 255, 0.6);
+$logo-text-color: rgba(255, 255, 255, 0.7);
+
+// mixins
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
